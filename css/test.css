@@ -1,0 +1,78 @@
+
+/*p{
+    text-align:center;
+    color: rgb(44, 28, 220);
+    padding: 10px;
+    background-color: rgb(223, 99, 99);
+}*/
+
+.AAA{
+    text-align:center;
+    color: rgb(31, 30, 36);
+    padding: 1px;
+    background-color: rgb(223, 99, 99);
+}
+
+
+#CC{
+    width: 100%;
+    background-color: blue;   
+}
+
+
+p{
+    text-align:right;
+    color: aqua;
+}     
+
+table{
+    caption-side:top;
+    border: 1px solid;
+}
+
+th,td {
+    border: 1px solid;
+    padding: auto;
+    text-align: center;
+}
+
+
+
+
+
+#BOX {
+    background-color: #4cff00;
+    border: 1px solid transparent;
+    animation-name: shape;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   }
+
+
+#BOX1 {
+    background-color: violet;
+    border: 1px solid transparent;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   }
+
+
+@keyframes shape {
+    from {
+        border: 1px solid transparent;
+    }
+    to {
+        border: 1px solid #000;
+        border-radius: 50%;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(175deg);
+    }
+}
