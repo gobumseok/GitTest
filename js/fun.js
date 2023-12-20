@@ -17,3 +17,7 @@ export function Valeue111(){
 export function Valeue1112(){
 	return "국거리 장단";
 }
+
+export function Valeue1112(){
+	return "국거리 장단1222";
+}
