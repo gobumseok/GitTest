@@ -12,3 +12,8 @@ export function fun11(){
 export function Valeue111(){
 	return "자진모리";
 }
+
+
+export function Valeue1112(){
+	return "국거리 장단";
+}
